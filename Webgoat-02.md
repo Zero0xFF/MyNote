@@ -8,7 +8,7 @@
 
 非常容易按照教程给出账户密码登录。
 
-<img src="./assets/image-20240518070456155.png" alt="image-20240518070456155" style="zoom:50%;" />
+![image-20240518070456155](./assets/image-20240518070456155.png)
 
 ## 观察分析
 
@@ -16,23 +16,23 @@
 
 下图是通过按钮点击显示的用户信息。
 
-<img src="./assets/image-20240518070955997.png" alt="image-20240518070955997" style="zoom: 50%;" />
+![image-20240518070955997](./assets/image-20240518070955997.png)
 
 下图是Burpsuit抓包获取的信息。
 
-<img src="./assets/image-20240518071228753.png" alt="image-20240518071228753" style="zoom:50%;" />
+![image-20240518071228753](./assets/image-20240518071228753.png)
 
 两相对比很明显，role和userId的信息并没有被浏览器显示出来。因此第二关答案为`role,userID`
 
-<img src="./assets/image-20240518071444120.png" alt="image-20240518071444120" style="zoom:50%;" />
+![image-20240518071444120](./assets/image-20240518071444120.png)
 
 ## 猜测Url路径
 
 根据提示采用的RESTful 风格，因此参数应该被放在路径中。由于要查看用户信息因此，userID一定被用作参数。结合之前抓包信息。不难猜测出路径为`/WebGoat/IDOR/profile/2342384`
 
-<img src="./assets/image-20240518072008798.png" alt="image-20240518072008798" style="zoom:50%;" />
+![image-20240518072008798](./assets/image-20240518072008798.png)
 
-<img src="./assets/image-20240518072042279.png" alt="image-20240518072042279" style="zoom:50%;" />
+![image-20240518072042279](./assets/image-20240518072042279.png)
 
 ## 尝试使用猜测路径发起攻击
 
@@ -42,15 +42,15 @@
 
 1. 设置Payload位点
 
-<img src="./assets/image-20240518072615949.png" alt="image-20240518072615949" style="zoom: 33%;" />
+![image-20240518072615949](./assets/image-20240518072615949.png)
 
 2. 设置Payload类型为数字，在2342384附近猜测user id
 
-<img src="./assets/image-20240518072906450.png" alt="image-20240518072906450" style="zoom:50%;" />
+![image-20240518072906450](./assets/image-20240518072906450.png)
 
 3. 获取结果，安返回内容长度排序，能够很轻易定位结果
 
-   <img src="./assets/image-20240518073359491.png" alt="image-20240518073359491" style="zoom: 33%;" />
+   ![image-20240518073359491](./assets/image-20240518073359491.png)
 
 4. 用burpsuit拦截请求补上之前获得用户id，点击放行即可过关。
 

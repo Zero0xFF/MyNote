@@ -45,16 +45,16 @@ Njg2NDYyNDQ0Yjc3NDk0Yzc4NGE2ZTY5NmQ2NDYx         686462444b77494c784a6e696d6461
 
 
 
-<img src="./assets/image-20240519020759025.png" alt="image-20240519020759025" style="zoom:50%;" />
+![image-20240519020759025](./assets/image-20240519020759025.png)
 
 自此可以开始解题了。
 
-<img src="./assets/image-20240519021253807.png" alt="image-20240519021253807" style="zoom:50%;" />
+![image-20240519021253807](./assets/image-20240519021253807.png)
 
 
 
-<img src="./assets/image-20240519021749536.png" alt="image-20240519021749536" style="zoom:50%;" />
+![image-20240519021749536](./assets/image-20240519021749536.png)
 
 成功展示。
 
-<img src="./assets/image-20240519021605461.png" alt="image-20240519021605461" style="zoom:50%;" />
+![image-20240519021605461](./assets/image-20240519021605461.png)

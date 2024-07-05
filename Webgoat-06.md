@@ -20,7 +20,7 @@
 
 奖励结算
 
-<img src="./assets/image-20240519184341323.png" alt="image-20240519184341323" style="zoom: 67%;" />
+![image-20240519184341323](./assets/image-20240519184341323.png)
 
 ## Lession 3
 
@@ -175,7 +175,7 @@ Here is a simple assignment. A private RSA key is sent to you. Determine the mod
       
       ![image-20240525031114043](./assets/image-20240525031114043.png)
 
-​		<img src="./assets/image-20240525065901841.png" alt="image-20240525065901841" style="zoom: 67%;" />
+​		![image-20240525065901841](./assets/image-20240525065901841.png)
 
 #### windows通关
 

@@ -152,9 +152,9 @@ sudo gobuster dir -u http://192.168.50.132 -w /usr/share/seclists/Discovery/Web-
 
 https://hashes.com/en/decrypt/hash
 
-<img src="./assets/image-20240607015850498.png" alt="image-20240607015850498" style="zoom:50%;" />
+![image-20240607015850498](./assets/image-20240607015850498.png)
 
-<img src="./assets/image-20240607015955142.png" alt="image-20240607015955142" style="zoom:67%;" />
+![image-20240607015955142](./assets/image-20240607015955142.png)
 
 ## Jekins漏洞利用
 
@@ -167,7 +167,7 @@ vipsu
 
 ![image-20240607020124828](./assets/image-20240607020124828.png)
 
-<img src="./assets/image-20240607020227242.png" alt="image-20240607020227242" style="zoom:50%;" />
+![image-20240607020227242](./assets/image-20240607020227242.png)
 
 ### 利用步骤
 

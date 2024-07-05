@@ -97,7 +97,7 @@ setting.xml配置如下
 
 1. 用IDEA打开Webgoat项目
 
-<img src="./assets/image-20240512073719712.png" alt="image-20240512073719712" style="zoom:50%;" />
+![image-20240512073719712](./assets/image-20240512073719712.png)
 
 2. Enable annotation Process
 
@@ -128,21 +128,21 @@ setting.xml配置如下
      </repositories>
    ```
 
-   <img src="./assets/image-20240512081037995.png" alt="image-20240512081037995" style="zoom:50%;" />
+   ![image-20240512081037995](./assets/image-20240512081037995.png)
 
 4. 鼠标右键pom.xml，通过Maven加载依赖。
 
-   <img src="./assets/image-20240512074417566.png" alt="image-20240512074417566" style="zoom:50%;" />
+   ![image-20240512074417566](./assets/image-20240512074417566.png)
 
 4. 耐心等待依赖加载完成。
 
-   <img src="./assets/image-20240512074540429.png" alt="image-20240512074540429" style="zoom: 33%;" />
+   ![image-20240512074540429](./assets/image-20240512074540429.png)
 
 ### 解决错误
 
 错误如图所示
 
-<img src="./assets/image-20240512082452729.png" alt="image-20240512082452729" style="zoom:50%;" />
+![image-20240512082452729](./assets/image-20240512082452729.png)
 
 CMD命令输入
 
@@ -154,46 +154,46 @@ mvn dependency:get -Dartifact=org.jacoco:jacoco-maven-plugin:LATEST:jar
 mvn dependency:get -Dartifact=org.owasp:dependency-check-maven:LATEST:jar
 ```
 
-<img src="./assets/image-20240512100630091.png" alt="image-20240512100630091" style="zoom:33%;" />
+![image-20240512100630091](./assets/image-20240512100630091.png)
 
 关闭IDEA重新打开，错误减少到一个。
 
-<img src="./assets/image-20240512100712324.png" alt="image-20240512100712324" style="zoom: 50%;" />
+![image-20240512100712324](./assets/image-20240512100712324.png)
 
 忽略错误。
 
-<img src="./assets/image-20240512100916846.png" alt="image-20240512100916846" style="zoom:50%;" />
+![image-20240512100916846](./assets/image-20240512100916846.png)
 
 ## 配置Spring Boot运行环境
 
 操作步骤如图所示。
 
-<img src="./assets/image-20240512101238973.png" alt="image-20240512101238973" style="zoom:50%;" />
+![image-20240512101238973](./assets/image-20240512101238973.png)
 
 ### 第6步详细实现方法
 
 点击Modify options
 
-<img src="./assets/image-20240512101449999.png" alt="image-20240512101449999" style="zoom:50%;" />
+![image-20240512101449999](./assets/image-20240512101449999.png)
 
 勾选Disable JMX endpoints
 
-<img src="./assets/image-20240512101648999.png" alt="image-20240512101648999" style="zoom: 50%;" />
+![image-20240512101648999](./assets/image-20240512101648999.png)
 
 ## 警告解决
 
 警告如图所示
 
-<img src="./assets/image-20240512101843178.png" alt="image-20240512101843178" style="zoom:50%;" />
+![image-20240512101843178](./assets/image-20240512101843178.png)
 
 1. 点击Modify options
 
-   <img src="./assets/image-20240512101449999.png" alt="image-20240512101449999" style="zoom:50%;" />
+   ![image-20240512101449999](./assets/image-20240512101449999.png)
 
 2. 勾选Add VM options
 
-<img src="./assets/image-20240512102015965.png" alt="image-20240512102015965" style="zoom:50%;" />
+![image-20240512102015965](./assets/image-20240512102015965.png)
 
 3. 按要求添加`--add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED`
 
-<img src="./assets/image-20240512102357901.png" alt="image-20240512102357901" style="zoom:50%;" />
+![image-20240512102357901](./assets/image-20240512102357901.png)

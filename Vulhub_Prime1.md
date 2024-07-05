@@ -30,13 +30,13 @@ http://192.168.50.130/wordpress/wp-login.php
 http://192.168.50.130/wordpress/wp-login.php?action=register
 ```
 
-<img src="./assets/image-20240622023005082.png" alt="image-20240622023005082" style="zoom: 67%;" />
+![image-20240622023005082](./assets/image-20240622023005082.png)
 
 ![image-20240622023039342](./assets/image-20240622023039342.png)
 
 ![image-20240622023109014](./assets/image-20240622023109014.png)
 
-<img src="./assets/image-20240622023202179.png" alt="image-20240622023202179" style="zoom:50%;" />
+![image-20240622023202179](./assets/image-20240622023202179.png)
 
 ## dirb目录爆破
 
@@ -149,9 +149,9 @@ http://192.168.50.130/image.php?secrettier360=../../../../../../../../etc/passwd
 
 
 
-<img src="./assets/image-20240622081415177.png" alt="image-20240622081415177" style="zoom:67%;" />
+![image-20240622081415177](./assets/image-20240622081415177.png)
 
-<img src="./assets/image-20240622081516989.png" alt="image-20240622081516989" style="zoom: 67%;" />
+![image-20240622081516989](./assets/image-20240622081516989.png)
 
 ## 提升权限
 

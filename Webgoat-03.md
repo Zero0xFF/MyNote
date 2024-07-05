@@ -12,7 +12,7 @@
 
 ![image-20240518091706445](./assets/image-20240518091706445.png)
 
-<img src="./assets/image-20240518092123131.png" alt="image-20240518092123131" style="zoom:50%;" />
+![image-20240518092123131](./assets/image-20240518092123131.png)
 
 ### 搜集用户信息
 
@@ -26,9 +26,9 @@
 
 如通过浏览器按下f12，修改html。将`hidden-menu-item dropdown`中的hidden-menu-item去掉，让原本隐藏的下拉菜单变得可见。随后依次点击发现都是无效路径。
 
-<img src="./assets/image-20240518120630603.png" alt="image-20240518120630603" style="zoom:50%;" />
+![image-20240518120630603](./assets/image-20240518120630603.png)
 
-<img src="./assets/image-20240518121104211.png" alt="image-20240518121104211" style="zoom:50%;" />
+![image-20240518121104211](./assets/image-20240518121104211.png)
 
 结合之前的经验推测出正确的路径应该为。
 
@@ -56,7 +56,7 @@ Webgoat/access-control/users这个路径对应的方法中@GetMapping注解有�
 
 ```
 
-<img src="./assets/image-20240518124300896.png" alt="image-20240518124300896" style="zoom: 50%;" />
+![image-20240518124300896](./assets/image-20240518124300896.png)
 
 ![image-20240518124355799](./assets/image-20240518124355799.png)
 
@@ -78,12 +78,12 @@ Webgoat/access-control/users这个路径对应的方法中@GetMapping注解有�
 
 通过POS` http://127.0.0.1:8080/WebGoat/access-control/users`，新建webgoat管理员账户
 
-<img src="./assets/image-20240518135343627.png" alt="image-20240518135343627" style="zoom: 50%;" />
+![image-20240518135343627](./assets/image-20240518135343627.png)
 
 尝试访问`http://127.0.0.1:8080/WebGoat/access-control/users-admin-fix`,获取hash。
 
-<img src="./assets/image-20240518135628350.png" alt="image-20240518135628350" style="zoom: 33%;" />
+![image-20240518135628350](./assets/image-20240518135628350.png)
 
 通关
 
-<img src="./assets/image-20240518135724503.png" alt="image-20240518135724503" style="zoom:50%;" />
+![image-20240518135724503](./assets/image-20240518135724503.png)

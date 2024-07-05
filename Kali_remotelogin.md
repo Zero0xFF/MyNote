@@ -6,7 +6,7 @@ vmware 获取Nat网络有关信息。
 
 ![image-20240601104142723](./assets/image-20240601104142723.png)
 
-<img src="./assets/image-20240601103650542.png" alt="image-20240601103650542" style="zoom: 80%;" />
+![image-20240601103650542](./assets/image-20240601103650542.png)
 
 ![image-20240601103922094](./assets/image-20240601103922094.png)
 

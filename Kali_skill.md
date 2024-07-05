@@ -7,3 +7,5 @@ Kali HiDPI Modle
 ```
 
 ![](pic\2024-04-07 034051.png)
+
+## 
